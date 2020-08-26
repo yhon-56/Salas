@@ -1,0 +1,130 @@
+
+
+.bg-primary{
+	transition: all 1s ease;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+
+
+}
+
+
+#contenedor {
+	width: 95%;
+	max-width:1000px;
+	margin:auto;
+}
+ 
+#contenedor p {
+	margin-bottom:40px;
+}
+
+
+header nav {
+	background:#3498db;
+	margin-bottom:10px;
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	background:#2980b9;
+}
+ 
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed{
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1110px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);}
+
+	
+
+	.fon1{
+		height: 400px;
+
+	}
+	.fon2{
+		height: 400px;
+
+
+	}
+
+#imagenlogo{
+	height: 200px;
+}
+
+
+.carousel-inner {
+
+height: 100%;
+}
+
+#flecha{
+	color: black;
+}
+
+footer{
+	height: 100%;
+	background-color: #0275D8;
+	padding-top: 20px;
+	
+}
+
+body {
+	background: #e4ebe9 url(imagen/fondo.jpg) repeat top left;
+	color: #444;
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+	#sala{
+		margin-bottom: 80px;
+		margin-top: 50px;
+	}
+
+h1{
+	margin-top: 40px;
+}
+
+#imagenes1 img{
+
+
+  max-width: 100%;
+  height: auto;
+
+
+}
+
+
+
+
+
+
